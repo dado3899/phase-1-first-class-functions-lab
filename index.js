@@ -32,7 +32,6 @@ const fareTripler = function(fare){
 // console.log(fareTripler(3)) 
 // First arg array second func
 function selectDifferentDrivers(array,func){
-    console.log(func)
     return func(array)
 }
 console.log(selectDifferentDrivers(drivers,returnFirstTwoDrivers))
